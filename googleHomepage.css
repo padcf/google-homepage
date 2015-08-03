@@ -1,0 +1,36 @@
+body	{
+	height:100%;
+	margin:0;
+}
+
+#all	{
+	position:absolute;
+	top:0;
+	width:100%;
+}
+
+#logo	{
+	padding:10em 10em 3em 10em;
+}
+
+#googleLogo	{
+	width: 260px;
+	height:90px;
+}
+
+
+#navBar	{
+	float:right;
+	top:-295px;
+}
+
+ul	{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	display:inline;
+	text-decoration: none;
+	color:#000;
+	font-size:13px;
+	font-family: arial, sans-serif;
+}
