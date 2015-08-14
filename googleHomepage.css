@@ -47,7 +47,11 @@ li 	{
 }
 
 #googleApps {
-	
+	opacity: .7;
+}
+
+#googleApps:hover	{
+	opacity: 1;
 }
 
 #signIn {
@@ -73,6 +77,80 @@ a 	{
 }
 
 input	{
-	width:500px;
+	width:100%;
 	height:20px;
+}
+
+#form 	{
+	width:500px;
+	height:80px;
+	position:relative;
+	
+}
+
+#mic	{	
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	right:0px;
+	top:5px;
+	opacity: 0.7;
+}
+
+#mic:hover	{
+	opacity: 1;
+}
+
+#form #left 	{
+	left:115px;	
+}
+
+
+#form #right 	{
+	right:115px;
+}
+
+.buttons	{
+	width: 20%;
+	position:absolute;
+	padding;
+	top:40px;
+	height: 25px;
+	border: 1px solid #c6c6c6;
+	border-radius: 5px;
+	background-color: #f5f5f5;
+	padding: 0 8px;
+	text-align: center;
+	opacity: .7;
+	font-family: arial,sans-serif;
+  	font-size: 11px;
+  	font-weight: bold;
+}
+
+.buttons:hover	{
+	opacity: 1;
+}
+
+.footer	{
+	width:100%;
+	background-color: #f2f2f2;
+	position:absolute;
+	bottom:-850px;
+	padding:5px;
+	font-size: small;
+	line-height: 0px;
+	border-top: 1px solid #e4e4e4;
+}
+
+.footer li 	{
+	display: inline;
+}
+
+.footer #left	{
+	float:left;
+	margin-left: 30px;
+}
+
+.footer #right	{
+	margin-right: 30px;
 }
